@@ -22,6 +22,7 @@ class dao extends baseDAO
 {
     public function exec($sql = '')
     {
+
         if(isset($_SESSION['tutorialMode']) and $_SESSION['tutorialMode']) die();
         return parent::exec($sql);
     }
