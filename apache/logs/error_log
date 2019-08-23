@@ -1,0 +1,37 @@
+[Wed Aug 21 10:51:10.769000 2019] [ssl:warn] [pid 2516:tid 312] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 10:51:10.799000 2019] [mpm_winnt:notice] [pid 2516:tid 312] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Wed Aug 21 10:51:10.799000 2019] [mpm_winnt:notice] [pid 2516:tid 312] AH00456: Server built: Dec 16 2016 23:05:57
+[Wed Aug 21 10:51:10.799000 2019] [core:notice] [pid 2516:tid 312] AH00094: Command line: 'E:\\yiding_git\\xampp\\apache\\bin\\httpd.exe -d E:/yiding_git/xampp/apache'
+[Wed Aug 21 10:51:10.802000 2019] [mpm_winnt:notice] [pid 2516:tid 312] AH00418: Parent: Created child process 2580
+[Wed Aug 21 10:51:11.688000 2019] [ssl:warn] [pid 2580:tid 212] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 10:51:11.721000 2019] [mpm_winnt:notice] [pid 2580:tid 212] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 21 10:52:03.126000 2019] [mpm_winnt:notice] [pid 2516:tid 312] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 21 10:52:05.126000 2019] [mpm_winnt:notice] [pid 2580:tid 212] AH00364: Child: All worker threads have exited.
+[Wed Aug 21 10:52:05.140000 2019] [mpm_winnt:notice] [pid 2516:tid 312] AH00430: Parent: Child process 2580 exited successfully.
+[Wed Aug 21 10:52:10.297000 2019] [ssl:warn] [pid 2668:tid 312] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 10:52:10.326000 2019] [mpm_winnt:notice] [pid 2668:tid 312] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Wed Aug 21 10:52:10.326000 2019] [mpm_winnt:notice] [pid 2668:tid 312] AH00456: Server built: Dec 16 2016 23:05:57
+[Wed Aug 21 10:52:10.326000 2019] [core:notice] [pid 2668:tid 312] AH00094: Command line: 'E:\\yiding_git\\xampp\\apache\\bin\\httpd.exe -d E:/yiding_git/xampp/apache'
+[Wed Aug 21 10:52:10.329000 2019] [mpm_winnt:notice] [pid 2668:tid 312] AH00418: Parent: Created child process 1596
+[Wed Aug 21 10:52:11.224000 2019] [ssl:warn] [pid 1596:tid 212] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 10:52:11.257000 2019] [mpm_winnt:notice] [pid 1596:tid 212] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 21 14:10:28.948000 2019] [mpm_winnt:notice] [pid 2668:tid 312] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 21 14:10:58.948000 2019] [mpm_winnt:notice] [pid 2668:tid 312] AH00431: Parent: Forcing termination of child process 1596
+[Wed Aug 21 15:33:21.679000 2019] [ssl:warn] [pid 2288:tid 312] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 15:33:21.725000 2019] [mpm_winnt:notice] [pid 2288:tid 312] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Wed Aug 21 15:33:21.725000 2019] [mpm_winnt:notice] [pid 2288:tid 312] AH00456: Server built: Dec 16 2016 23:05:57
+[Wed Aug 21 15:33:21.725000 2019] [core:notice] [pid 2288:tid 312] AH00094: Command line: 'E:\\yiding_git\\xampp\\apache\\bin\\httpd.exe -d E:/yiding_git/xampp/apache'
+[Wed Aug 21 15:33:21.727000 2019] [mpm_winnt:notice] [pid 2288:tid 312] AH00418: Parent: Created child process 7128
+[Wed Aug 21 15:33:22.671000 2019] [ssl:warn] [pid 7128:tid 212] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 21 15:33:22.707000 2019] [mpm_winnt:notice] [pid 7128:tid 212] AH00354: Child: Starting 150 worker threads.
+[Thu Aug 22 15:15:09.880000 2019] [mpm_winnt:notice] [pid 2288:tid 312] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 22 15:15:39.880000 2019] [mpm_winnt:notice] [pid 2288:tid 312] AH00431: Parent: Forcing termination of child process 7128
+[Fri Aug 23 08:58:59.248400 2019] [ssl:warn] [pid 1800:tid 312] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Aug 23 08:58:59.716400 2019] [mpm_winnt:notice] [pid 1800:tid 312] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Fri Aug 23 08:58:59.732000 2019] [mpm_winnt:notice] [pid 1800:tid 312] AH00456: Server built: Dec 16 2016 23:05:57
+[Fri Aug 23 08:58:59.732000 2019] [core:notice] [pid 1800:tid 312] AH00094: Command line: 'E:\\yiding_git\\xampp\\apache\\bin\\httpd.exe -d E:/yiding_git/xampp/apache'
+[Fri Aug 23 08:58:59.747600 2019] [mpm_winnt:notice] [pid 1800:tid 312] AH00418: Parent: Created child process 1884
+[Fri Aug 23 08:59:01.058000 2019] [ssl:warn] [pid 1884:tid 212] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Aug 23 08:59:01.089200 2019] [mpm_winnt:notice] [pid 1884:tid 212] AH00354: Child: Starting 150 worker threads.
+[Fri Aug 23 09:02:14.881800 2019] [mpm_winnt:crit] [pid 1884:tid 212] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Aug 23 09:02:16.883800 2019] [mpm_winnt:notice] [pid 1884:tid 212] AH00364: Child: All worker threads have exited.
