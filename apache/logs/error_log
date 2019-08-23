@@ -35,3 +35,11 @@
 [Fri Aug 23 08:59:01.089200 2019] [mpm_winnt:notice] [pid 1884:tid 212] AH00354: Child: Starting 150 worker threads.
 [Fri Aug 23 09:02:14.881800 2019] [mpm_winnt:crit] [pid 1884:tid 212] AH02538: Child: Parent process exited abruptly. Child process is ending
 [Fri Aug 23 09:02:16.883800 2019] [mpm_winnt:notice] [pid 1884:tid 212] AH00364: Child: All worker threads have exited.
+[Fri Aug 23 09:50:07.864800 2019] [core:warn] [pid 5952:tid 312] AH00098: pid file E:/yiding_git/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 23 09:50:07.944800 2019] [ssl:warn] [pid 5952:tid 312] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Aug 23 09:50:07.972800 2019] [mpm_winnt:notice] [pid 5952:tid 312] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Fri Aug 23 09:50:07.973800 2019] [mpm_winnt:notice] [pid 5952:tid 312] AH00456: Server built: Dec 16 2016 23:05:57
+[Fri Aug 23 09:50:07.973800 2019] [core:notice] [pid 5952:tid 312] AH00094: Command line: 'E:\\yiding_git\\xampp\\apache\\bin\\httpd.exe -d E:/yiding_git/xampp/apache'
+[Fri Aug 23 09:50:07.975800 2019] [mpm_winnt:notice] [pid 5952:tid 312] AH00418: Parent: Created child process 7580
+[Fri Aug 23 09:50:08.927800 2019] [ssl:warn] [pid 7580:tid 212] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Aug 23 09:50:08.962800 2019] [mpm_winnt:notice] [pid 7580:tid 212] AH00354: Child: Starting 150 worker threads.

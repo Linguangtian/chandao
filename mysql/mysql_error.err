@@ -723,3 +723,10 @@ Version: '10.1.21-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribut
 2019-08-23  8:59:05 3364 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1286: Unknown storage engine 'InnoDB'
 2019-08-23  8:59:05 2792 [Note] E:\yiding_git\xampp\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.21-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-08-23  9:50:12 4144 [Note] Plugin 'InnoDB' is disabled.
+2019-08-23  9:50:12 4144 [Note] Server socket created on IP: '127.0.0.1'.
+2019-08-23  9:50:12 7792 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1286: Unknown storage engine 'InnoDB'
+2019-08-23  9:50:13 4144 [Note] E:\yiding_git\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.21-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-08-23  9:55:13 2016 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-23  9:55:14 2016 [Note] feedback plugin: server replied 'ok'

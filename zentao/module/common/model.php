@@ -509,7 +509,8 @@ class commonModel extends model
             ->andWhere('t2.deleted')->eq(0)
             ->andWhere('t1.status')->in('wait, doing')
             ->andWhere('t1.assignedTo')->eq($this->session->user->account)
-            ->andWhere('t1.estStarted')->eq(date(DT_DATE1, strtotime('+1 day')))
+            ->andWhere('t1.estStarted')->le(date(DT_DATE1, strtotime('+1 day')))
+            ->andWhere('t1.deadline')->ge(date(DT_DATE1, strtotime('+1 day')))
             ->count();
     }
 
@@ -518,11 +519,14 @@ class commonModel extends model
         global $app;
         echo  "<div  class='urgent_job' >";
         echo    "<li >";
-        echo     "<a class='msg urgent_bg' title='紧急任务' href='my-task-urgentJob.html'> </a>";
+
+        $link=helper::createLink('my', 'task-urgentJob');
+        echo     "<a class='msg urgent_bg' title='紧急任务' href='{$link}'> </a>";
         if($app->UrgentJob>0) echo  "<s  class='urgent_num' >{$app->UrgentJob}</s>";
         echo     "</li>";
         echo     "<li >";
-        echo     "<a class='msg tomorrow_bg' title='明日任务' href='my-task-tomorrowJob.html'> </a>";
+         $link=helper::createLink('my', 'task-tomorrowJob');
+        echo     "<a class='msg tomorrow_bg' title='明日任务' href='{$link}'> </a>";
         if($app->tomorrowJob>0)  echo  " <s  class='urgent_num' >{$app->tomorrowJob}</s>";
          echo     "</li>";
          echo     "</div>";
